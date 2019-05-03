@@ -232,6 +232,7 @@ padding: 90px 0 100px 0;
         center no-repeat;
         background-size: cover;
         padding-bottom: 0;
+        margin-bottom: 40px;
 }
 
 .section-header {
@@ -401,4 +402,91 @@ color: #ffffff;
     left: 360px;
     z-index: 1;
 
+}
+
+/* What We Do*/
+
+.whwedo {
+    display: flex;
+
+}
+.whwedo-item {
+    width: 50%;
+    
+}
+
+/*Accordion*/
+.accordion {}
+
+.accordion-item {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+.accordion-item:hover
+.accordion-header{
+    border-bottom-color:  #e5e5e5; 
+}
+.accordion-item:hover
+.accordion-content {
+    display: block;
+}
+.accordion-item:hover
+.accordion-header:after {
+    margin-top: 5px;
+    transform: translateY(-50%)
+    rotate(-45deg);
+}
+
+.accordion-header {
+    position: relative;
+    border-bottom: 1px solid transparent;
+    padding: 15px 20px 15px 65px;
+    cursor: pointer;
+}
+
+.accordion-header:after {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin-bottom: 3px;
+    
+
+    border-top: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 1;
+    transform: translateY(-50%)
+    rotate(135deg);
+
+
+
+}
+
+.accordion-title {
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.accordion-icon {
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    z-index: 1;
+    transform: translateY(-50%);
+
+}
+
+.accordion-content {
+    display: none;
+    padding: 19px  19px 27px 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-style: italic;
+    font-weight: 300;
+    
 }
