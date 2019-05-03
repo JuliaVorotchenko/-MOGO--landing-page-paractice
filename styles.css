@@ -384,15 +384,21 @@ color: #ffffff;
 .devices {
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 270px 0 335px;
     position: relative;
-}
-.devices-item {
     
 }
+
 .devices--item--ipad {
+    width: 472px;
 
 }
+
 .devices--item--iphone {
+    width: 267px;
+    position: absolute;
+    bottom: -51px;
+    left: 360px;
+    z-index: 1;
 
 }
