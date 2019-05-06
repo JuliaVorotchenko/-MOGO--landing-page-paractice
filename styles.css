@@ -495,8 +495,7 @@ color: #ffffff;
 
 /*REVIEWS*/
 .reviews {
-    width: 980px;
-    margin: auto;
+   padding:  0 110px;
     position: relative;
 
 }
@@ -544,9 +543,9 @@ margin-bottom: 15px;
     font-size: 0;
     color: transparent;
     position: absolute;
-    top: 50%;
     z-index: 1;
-    transform: translateY(-50%);
+    top: 50%;
+    
 }
 
 .reviews-button:after {
@@ -557,20 +556,22 @@ margin-bottom: 15px;
     margin-bottom: 3px;
     border-top: 2px solid #cccccc;
     border-left: 2px solid #cccccc;
-    top: 50%;
+    
     right: 20px;
     z-index: 1;
-    transform: 
-    rotate(45deg);
+    
+    
 }
 
 .reviews-button--prev {
-    left: 0;
-    transform: rotate(-45deg);
+    left: 22px;
+    transform: rotate(-45deg) ;
+   
 }
 
 .reviews-button--next {
-    right: 0;
-    transform: 
-    rotate(135deg);
+    right: 22px;
+    transform: rotate(135deg) ;
+  
+   
 }
