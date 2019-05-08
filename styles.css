@@ -639,6 +639,7 @@ margin-bottom: 15px;
 .works {
     display: flex;
     
+    
 }
 .works-col {
     flex: 1 1 0;
@@ -688,7 +689,9 @@ linear-gradient(to bottom,
 
 }
 
-.works_image {
+.works-image {
+    width: 100%;
+    height: auto;
     display: block;
     
     transition: opacity .2s linear;
