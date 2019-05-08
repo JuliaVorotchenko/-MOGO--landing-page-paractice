@@ -770,3 +770,47 @@ linear-gradient(to bottom,
     height: 3px;
     background-color: #f38181;
 }
+
+/*Blog*/
+
+
+.blog {
+    display: flex;
+
+}
+
+.blog-item {
+    width: 30%;
+
+}
+
+.blog-header {
+    position: relative;
+
+}
+
+.blog-photo {
+    display: blog;
+    width: 100%;
+    height: auto;
+}
+
+.blog-date {
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    position: absolute;
+    bottom: 12px;
+    left: -13px;
+    z-index: 1;
+    
+
+
+}
+.blog-date-day {
+
+}
+
+.blog-date-month {
+
+}
